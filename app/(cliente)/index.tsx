@@ -89,7 +89,7 @@ export default function ClienteHomeScreen() {
           onPress={() => router.push('/(cliente)/novo-pedido')}
         >
           <View style={styles.createRequestIcon}>
-            <Plus color="#667eea" size={32} />
+            <Plus color="#e50914" size={32} />
           </View>
           <View style={styles.createRequestContent}>
             <Text style={styles.createRequestTitle}>Criar Novo Pedido</Text>
@@ -214,7 +214,7 @@ const styles = StyleSheet.create({
   statNumber: {
     fontSize: 28,
     fontFamily: 'Inter-Bold',
-    color: '#667eea',
+    color: '#e50914',
     marginBottom: 4,
   },
   statLabel: {
@@ -239,7 +239,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   actionButton: {
-    backgroundColor: '#667eea',
+    backgroundColor: '#e50914',
     paddingVertical: 12,
     paddingHorizontal: 24,
     borderRadius: 8,
@@ -357,7 +357,7 @@ const styles = StyleSheet.create({
   proposalCount: {
     fontSize: 12,
     fontFamily: 'Inter-Medium',
-    color: '#667eea',
+    color: '#e50914',
   },
   emptyState: {
     backgroundColor: '#fff',

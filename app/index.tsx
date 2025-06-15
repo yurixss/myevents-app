@@ -21,16 +21,11 @@ export default function WelcomeScreen() {
 
   return (
     <LinearGradient
-      colors={['#667eea', '#764ba2']}
+      colors={['#000000', '#e50914']}
       style={styles.container}
     >
       <View style={styles.content}>
         <View style={styles.header}>
-          <Image
-            source={{ uri: 'https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=300' }}
-            style={styles.heroImage}
-            resizeMode="cover"
-          />
           <Text style={styles.title}>MyEvents</Text>
           <Text style={styles.subtitle}>
             Conectando clientes e prestadores de serviços para eventos inesquecíveis
@@ -148,7 +143,7 @@ const styles = StyleSheet.create({
   primaryButtonText: {
     fontSize: 18,
     fontFamily: 'Inter-SemiBold',
-    color: '#667eea',
+    color: '#e50914',
   },
   registerOptions: {
     alignItems: 'center',

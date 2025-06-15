@@ -308,8 +308,8 @@ const styles = StyleSheet.create({
     borderColor: '#e9ecef',
   },
   eventTypeButtonActive: {
-    backgroundColor: '#667eea',
-    borderColor: '#667eea',
+    backgroundColor: '#e50914',
+    borderColor: '#e50914',
   },
   eventTypeText: {
     fontSize: 14,
@@ -338,7 +338,7 @@ const styles = StyleSheet.create({
     textAlignVertical: 'top',
   },
   submitButton: {
-    backgroundColor: '#667eea',
+    backgroundColor: '#e50914',
     paddingVertical: 16,
     borderRadius: 12,
     alignItems: 'center',

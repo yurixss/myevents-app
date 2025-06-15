@@ -45,7 +45,7 @@ export default function PerfilScreen() {
 
         <View style={styles.infoSection}>
           <View style={styles.infoItem}>
-            <Mail size={20} color="#667eea" />
+            <Mail size={20} color="#e50914" />
             <View style={styles.infoContent}>
               <Text style={styles.infoLabel}>Email</Text>
               <Text style={styles.infoValue}>{auth.user?.email}</Text>
@@ -54,7 +54,7 @@ export default function PerfilScreen() {
 
           {auth.user?.phone && (
             <View style={styles.infoItem}>
-              <Phone size={20} color="#667eea" />
+              <Phone size={20} color="#e50914" />
               <View style={styles.infoContent}>
                 <Text style={styles.infoLabel}>Telefone</Text>
                 <Text style={styles.infoValue}>{auth.user.phone}</Text>
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
   userType: {
     fontSize: 16,
     fontFamily: 'Inter-Medium',
-    color: '#667eea',
+    color: '#e50914',
     backgroundColor: '#f0f2ff',
     paddingHorizontal: 16,
     paddingVertical: 6,

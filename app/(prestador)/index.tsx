@@ -46,7 +46,7 @@ export default function PrestadorHomeScreen() {
             <Text style={styles.statLabel}>Pendentes</Text>
           </View>
           <View style={styles.statCard}>
-            <DollarSign size={24} color="#667eea" />
+            <DollarSign size={24} color="#e50914" />
             <Text style={styles.statNumber}>
               R$ {(totalEarnings / 1000).toFixed(0)}k
             </Text>
@@ -75,7 +75,7 @@ export default function PrestadorHomeScreen() {
           onPress={() => router.push('/(prestador)/pedidos')}
         >
           <View style={styles.quickActionIcon}>
-            <Search color="#667eea" size={32} />
+            <Search color="#e50914" size={32} />
           </View>
           <View style={styles.quickActionContent}>
             <Text style={styles.quickActionTitle}>Buscar Novos Pedidos</Text>
@@ -90,7 +90,7 @@ export default function PrestadorHomeScreen() {
           onPress={() => router.push('/(prestador)/propostas')}
         >
           <View style={styles.quickActionIcon}>
-            <Send color="#667eea" size={32} />
+            <Send color="#e50914" size={32} />
           </View>
           <View style={styles.quickActionContent}>
             <Text style={styles.quickActionTitle}>Gerenciar Propostas</Text>
@@ -240,7 +240,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   actionButton: {
-    backgroundColor: '#667eea',
+    backgroundColor: '#e50914',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',

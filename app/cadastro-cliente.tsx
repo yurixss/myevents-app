@@ -58,7 +58,7 @@ export default function CadastroClienteScreen() {
 
   return (
     <LinearGradient
-      colors={['#667eea', '#764ba2']}
+      colors={['#000000', '#e50914']}
       style={styles.container}
     >
       <KeyboardAvoidingView 
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     padding: 4,
   },
   registerButton: {
-    backgroundColor: '#667eea',
+    backgroundColor: '#e50914',
     paddingVertical: 16,
     borderRadius: 12,
     alignItems: 'center',
@@ -264,6 +264,6 @@ const styles = StyleSheet.create({
   },
   loginLinkTextBold: {
     fontFamily: 'Inter-SemiBold',
-    color: '#667eea',
+    color: '#e50914',
   },
 });

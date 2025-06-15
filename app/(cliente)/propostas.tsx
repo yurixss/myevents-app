@@ -457,7 +457,7 @@ const styles = StyleSheet.create({
   modalSubmit: {
     fontSize: 16,
     fontFamily: 'Inter-SemiBold',
-    color: '#667eea',
+    color: '#e50914',
   },
   modalContent: {
     flex: 1,

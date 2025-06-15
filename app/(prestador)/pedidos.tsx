@@ -291,7 +291,7 @@ const styles = StyleSheet.create({
   eventTypeText: {
     fontSize: 12,
     fontFamily: 'Inter-SemiBold',
-    color: '#667eea',
+    color: '#e50914',
   },
   clientInfo: {
     flexDirection: 'row',
@@ -344,7 +344,7 @@ const styles = StyleSheet.create({
     color: '#999',
   },
   proposalButton: {
-    backgroundColor: '#667eea',
+    backgroundColor: '#e50914',
     flexDirection: 'row',
     alignItems: 'center',
     paddingHorizontal: 16,
@@ -403,7 +403,7 @@ const styles = StyleSheet.create({
   modalSubmit: {
     fontSize: 16,
     fontFamily: 'Inter-SemiBold',
-    color: '#667eea',
+    color: '#e50914',
   },
   modalSubmitDisabled: {
     color: '#ccc',
